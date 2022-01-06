@@ -14,7 +14,6 @@ I'm a grad student at Georgia Tech where I'm doing an MS in Computer Science in 
 Prior to joining Georgia Tech, I also worked as a software engineer at General Electric where I was responsible for developing and deploying REST-based microservices in Java. 
 I also worked to optimize and improve the DevOps and CI/CD pipelines for the project. My work involved updating PDIs and scripts and to migrate build artifacts, Helm charts and images to JFrog Artifactory.
 Additionally, I also helped create custom alerts and dashboards for monitoring and logging.
-You can find more details about my experience at GE on my resume, linked [here](https://barunkgp.github.io/files/cv.pdf).
 
 Besides work and study, I am a huge football (North American audiences, I mean soccer, I just refuse to call it that xD) fan. I used to play a lot too, until a bad knee injury ended my budding hopes of being the next Lionel Messi. I also enjoy photography and filmmaking. Often when I have a few hours to chill, I will sit in the sun and read a book or if it's dark outside, I will put on a movie while drinking hot chocolate. Up until a couple of years ago, I used to play a game with my friends where we would try to pick Academy Award winners ahead of the ceremony. I am proud to say that more often than not I have had the most accurate guesses. Does that mean something? I don't know, maybe I got lucky. Or maybe you should call me the next time before you buy a lottery ticket.
 
