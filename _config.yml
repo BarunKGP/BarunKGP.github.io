@@ -5,6 +5,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Site theme: changed to Alembic - https://alembic.darn.es/  https://jekyllthemes.io/theme/alembic
+# Use Alembic as a remote theme, otherwise it causes conflicts with Github Pages gems. See https://github.com/daviddarnes/alembic/issues/128#issuecomment-493363170
+remote_theme: daviddarnes/alembic@main
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Barun Das"
@@ -265,6 +269,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -309,3 +314,5 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+future: false # Disable 'Future Blog Post' section
