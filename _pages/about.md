@@ -9,7 +9,7 @@ redirect_from:
 ---
 Hey, there, pleased to meet you! You may have stumbled here through the interwebs, but while you're here, let me tell you a little bit about myself.
 
-I'm a grad student at Georgia Tech where I'm doing an MS in Computer Science in the Interactive Intelligence track. I'm in my second semester now and it has been a wild ride so far. I'm really excited to start the new semester and work on cool projects. Watch this space for regular updates. Meanwhile, you can get an idea of my completed and current coursework [here](add-link).
+I'm a grad student at Georgia Tech where I'm doing an MS in Computer Science in the Interactive Intelligence track. I'm in my second semester now and it has been a wild ride so far. I'm really excited to start the new semester and work on cool projects. Watch this space for regular updates. Meanwhile, you can get an idea of my completed and current coursework [here](coursework).
 
 Prior to joining Georgia Tech, I also worked as a software engineer at General Electric where I was responsible for developing and deploying REST-based microservices in Java. 
 I also worked to optimize and improve the DevOps and CI/CD pipelines for the project. My work involved updating PDIs and scripts and to migrate build artifacts, Helm charts and images to JFrog Artifactory.
