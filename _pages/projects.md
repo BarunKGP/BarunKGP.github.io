@@ -17,6 +17,11 @@ Blockboard is an interactive visual dashboard that analyzes complex information 
 
 **Tech stack:** Flask backend with a Javascript frontend (D3.js, Swiper.js) backed by an AzureMySQL database. Sentiment analysis was performed on relevant tweets using Vader.
 
+Here is a brief (_3 min_) video explaining the project with a quick demo:
+<p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FlJ3E5Omfdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 ## Federated Learning Movie Recommendation System
 _Aug 2021 - Dec 2021_
 
