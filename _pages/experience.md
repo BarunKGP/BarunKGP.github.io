@@ -14,6 +14,7 @@ author_profile: true
 
 - Teaching assistant for the OMS section consisting of close to 1200 students
 - Responsible for updating and creating autograder scripts, grading assignments and clearing doubts on Piazza, holding office hours and ensuring smooth execution of the course project
+
 ## Software Engineering Specialist @ General Electric
 <p style="text-align:left;">
     <b>Hyderabad, India</b>
