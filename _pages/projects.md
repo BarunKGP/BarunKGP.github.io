@@ -8,7 +8,7 @@ author_profile: true
 ## Human-assisted Activity Recognition
 *Jan 2022 - Present*
 
-Training an AI model to use human expression to recognize activities in a video stream - **more details coming soon**.
+Currently researching ways to improve a video-based activity recognition system by incorporating knowledge from human narration under the supervision of Prof. Thomas Ploetz. Ideally, we would have a system that can be trained to recognize activities in a video stream, by using the accompanying human narration, such as a model that recognizes sports events based on the commentary. Right now, I am experimenting with [MMAction2](https://github.com/open-mmlab/mmaction2) and [ActivityNet](http://activity-net.org/index.html).
 
 ## Blockboard
 _Aug 2021 - Dec 2021_
