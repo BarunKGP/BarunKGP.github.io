@@ -4,7 +4,21 @@ title: "Experience"
 permalink: /experience/
 author_profile: true
 ---
-## Teaching Assistant @ Georgia Tech for CSE6242 - Data and Visual Analytics
+## Software Engineering Intern @ Autodesk
+<p style="text-align:left;">
+    <b>Atlanta, GA</b>
+    <span style="float:right;">
+        <i>may 2022 - Aug 2022</i>
+    </span>
+</p>
+
+- Created ETL scripts to pull data from three key learning platforms into AWS Neptune, leveraging openCypher for querying – resulting in a highly connected knowledge graph consisting of over 30000 nodes and around 50000 relationships
+- Developed a graph-based recommendation system utilizing AWS Neptune which increased monthly active users by 40% (estd)
+- Implemented a GraphQL API for the recommendation engine consisting of Lambda functions (built using the Node.js Serverless framework) exposed over AWS AppSync to enable dynamic querying of the knowledge graph
+- Provisioned and configured different AWS instances (EC2, Neptune, AppSync, Lambdas) and IAM roles using Cloudformation
+
+
+## Head Teaching Assistant @ Georgia Tech
 <p style="text-align:left;">
     <b>Atlanta, GA</b>
     <span style="float:right;">
@@ -12,8 +26,8 @@ author_profile: true
     </span>
 </p>
 
-- Teaching assistant for the OMS section consisting of close to 1200 students
-- Responsible for updating and creating autograder scripts, grading assignments and clearing doubts on Piazza, holding office hours and ensuring smooth execution of the course project
+- Teaching assistant for the _CSE 6242 - Data and Visual Analytics_ course consisting of over 1200 students 
+- Responsible for updating and creating autograder scripts, grading assignments, holding office hours and ensuring smooth collaboration between TAs
 
 ## Software Engineering Specialist @ General Electric
 <p style="text-align:left;">
