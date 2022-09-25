@@ -5,7 +5,7 @@ permalink: /experience/
 author_profile: true
 ---
 ### Software Engineering Intern @ Autodesk
-<p style="text-align: left; font-size: 0.7em;">
+<p style="text-align: left; font-size: 0.8em;">
     <b>Atlanta, GA</b>
     <span style="float:right;">
         <i>May 2022 - Aug 2022</i>
@@ -17,9 +17,10 @@ author_profile: true
 - Implemented a GraphQL API for the recommendation engine consisting of Lambda functions (built using the Node.js Serverless framework) exposed over AWS AppSync to enable dynamic querying of the knowledge graph
 - Provisioned and configured different AWS instances (EC2, Neptune, AppSync, Lambdas) and IAM roles using Cloudformation
 
+**Tech stack:** AWS, Node.js, Java, Neo4j, Cypher
 
-## Head Teaching Assistant @ Georgia Tech
-<p style="text-align:left;">
+### Head Teaching Assistant @ Georgia Tech
+<p style="text-align:left; font-size: 0.8em;">
     <b>Atlanta, GA</b>
     <span style="float:right;">
         <i>Jan 2022 - Present</i>
@@ -29,8 +30,8 @@ author_profile: true
 - Teaching assistant for the _CSE 6242 - Data and Visual Analytics_ course consisting of over 1200 students 
 - Responsible for updating and creating autograder scripts, grading assignments, holding office hours and ensuring smooth collaboration between TAs
 
-## Software Engineering Specialist @ General Electric
-<p style="text-align:left;">
+### Software Engineering Specialist @ General Electric
+<p style="text-align:left; font-size: 0.8em;">
     <b>Hyderabad, India</b>
     <span style="float:right;">
         <i>Aug 2020 - Aug 2021</i>
