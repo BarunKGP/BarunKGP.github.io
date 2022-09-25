@@ -5,7 +5,7 @@ permalink: /experience/
 author_profile: true
 ---
 ### Software Engineering Intern @ Autodesk
-<p style="text-align:left;">
+<p style="text-align: left; font-size: 0.7em;">
     <b>Atlanta, GA</b>
     <span style="float:right;">
         <i>May 2022 - Aug 2022</i>
