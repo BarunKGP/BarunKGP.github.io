@@ -4,11 +4,11 @@ title: "Experience"
 permalink: /experience/
 author_profile: true
 ---
-## Software Engineering Intern @ Autodesk
+### Software Engineering Intern @ Autodesk
 <p style="text-align:left;">
     <b>Atlanta, GA</b>
     <span style="float:right;">
-        <i>may 2022 - Aug 2022</i>
+        <i>May 2022 - Aug 2022</i>
     </span>
 </p>
 
