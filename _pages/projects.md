@@ -5,10 +5,19 @@ permalink: /projects/
 author_profile: true
 ---
 
-## Human-assisted Activity Recognition
-*Jan 2022 - Present*
+## DoGE: Domain Generalization beyond distribution shifts
+*Sept 2022 - Present*
 
-Currently researching ways to improve a video-based activity recognition system by incorporating knowledge from human narration under the supervision of Prof. Thomas Ploetz. Ideally, we would have a system that can be trained to recognize activities in a video stream, by using the accompanying human narration, such as a model that recognizes sports events based on the commentary. Right now, I am experimenting with [MMAction2](https://github.com/open-mmlab/mmaction2) and [ActivityNet](http://activity-net.org/index.html).
+Domain generalization algorithms suffer from distribution shifts when faced with different target domains. This is a problem because performance of models degrades in the presence of different kinds of shiftsl. [Ye et al., CVPR 2022](https://arxiv.org/pdf/2106.03721.pdf) found that most state-of-the-art domain generalization (DG) algorithms fail to beat the simple supervised baseline (ERM) on two major kinds of distribution shifts that seem to affect models the most: *correlation shift* and *diversity shift*. Even though certain algorithms outperform ERM on one of the shifts, their average performance across both kinds of shifts is worse than ERM, which makes these models useful only in a highly specialized setting. Ye et al. argues that this means domain generalization performances have been  overstated and actual progress is comparatively low. 
+
+DoGE solves this problem by implementing a novel algorithm that combines gradient muting and a penalty term that punishes the model when its predictions are wrong after a certain number of annealing iterations. We also implemented a scheduling function that controls the influence the penalty and gradient muting functions have at different part of the training stage, depending on whether we are working on a dataset that is more prone to correlation shift or diversity shift. So far, we have managed to beat several benchmarks mentioned in the OOD-Bench paper across both correlation shift and diversity shift, outperforming the previous state-of-the-art models. We are in the process of testing our model on different datasets and expect to get our final results by December 2022.
+
+## Human-assisted Activity Recognition
+*Jan 2022 - Present* 
+
+Currently researching ways to improve a video-based activity recognition system by incorporating knowledge from human narration under the supervision of Prof. Thomas Ploetz. Ideally, we would have a system that can be trained to recognize activities in a video stream, by using the accompanying human narration, such as a model that recognizes sports events based on the commentary. Our current approach is to compute the multimodal attention between the narration verbs and nouns and the frame features as a signal for the action boundaries. This is important because we formulate this as a weakly supervised problem and do not use exact action timestamps. This is in line with the [EPIC Kitchens 100](https://epic-kitchens.github.io/2022#challenge-action-recognition) action recognition challenge, which serves as an inspiration for this task. However, we will take this one step further and formulate this problem in a completely semi-supervised setting, where we aim to formulate action boundaries without using any timestamps.
+
+We estimate this project to have publishable results by the end of this year.
 
 ## Blockboard
 _Aug 2021 - Dec 2021_
