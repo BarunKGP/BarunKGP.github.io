@@ -7,8 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hey, there, pleased to meet you! You may have stumbled here through the interwebs, but while you're here, let me tell you a little bit about myself.
-
 I'm a grad student at Georgia Tech where I'm doing an MS in Computer Science in the Interactive Intelligence track. Watch this space for regular updates. Meanwhile, you can get an idea of my completed and current coursework [here](coursework).
 
 This summer (2022), I was a software engineering intern at Autodesk, where I designed a knowledge graph based recommendation system, utilizing AWS services. I also created a GraphQL API which could be used to query the recommendation system and generate useful pipelines for the end-user. 
@@ -19,7 +17,7 @@ I also optimized the DevOps and CI/CD pipelines for the project.
 
 If you wanna know more about my professional experience, here's my [CV](files/cv.pdf) and [LinkedIn](https://www.linkedin.com/in/barun-das). Please feel free to look over the other pages on this website as well. If you want to contact me, shoot me an email over at [bdas31@gatech.edu](mailto:bdas31@gatech.edu).
 
-<font size="3" style="color: #ff9999;"><i>I am actively looking for full-time opportunities in machine learning, data science and software development starting Summer 2023. If you or someone you know is hiring, please get in touch!</i></font>
+<font size="4" style="color: #ff9999;"><i>I am actively looking for full-time opportunities in machine learning, data science and software development starting Summer 2023. If you or someone you know is hiring, please get in touch!</i></font>
 
 <!-- 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
