@@ -9,4 +9,4 @@ redirect_from:
 
 I enjoy writing about stuff I use and discover on my journey through the realms of computer science. I plan to import my blogs here soon, but for now you can catch them on my [Medium](https://medium.com/@barundas_79052) page.
 
-<script src="medium_embed.js"></script>
+<script src="/medium_embed.js"></script>
