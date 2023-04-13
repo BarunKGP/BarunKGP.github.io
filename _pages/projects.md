@@ -73,3 +73,5 @@ _Aug 2018 - Nov 2018_
 Decomposed polarimetric SAR images to separate sea-clutter and establish a probabilistic model of ship detection and then applied variational Bayesian inference to estimate the posterior distributions and obtain the final results.
 
 **Tech stack:** Python, NumPy, Scikit-learn, TensorFlow.
+
+**[GitHub](https://github.com/BarunKGP/Ship-Detection)**
