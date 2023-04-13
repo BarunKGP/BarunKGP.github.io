@@ -34,7 +34,7 @@ DoGe solves this problem by implementing a novel algorithm that combines gradien
 
 **[Github](https://github.com/ChayneThrash/DomainBed)** 
 
-Here is a brief (_2 min_) video explaining the project with a quick demo:
+Here is a 1 min video explaining the project:
 <p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/5UJ3fXRFhTw" title="Towards Addressing Correlation and Diversity Shift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </p>
@@ -46,7 +46,7 @@ Blockboard is an interactive visual dashboard that analyzes complex information 
 
 **Tech stack:** Flask backend with a Javascript frontend (D3.js, Swiper.js) backed by an AzureMySQL database. Sentiment analysis was performed on relevant tweets using Vader.
 
-Here is a brief (_3 min_) video explaining the project with a quick demo:
+Here is a brief (3 min) video explaining the project with a quick demo:
 <p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/FlJ3E5Omfdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
