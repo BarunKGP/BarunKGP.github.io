@@ -21,7 +21,7 @@ learnt new classes from the narration itself.
 
 Based on our findings, we are developing a narration-aided human activity recognition system. Our current approach is to compute the multimodal attention between the narration verbs and nouns and the frame features as a signal for the action boundaries. This is important because we formulate this as a weakly supervised problem and do not use exact action timestamps. This is in line with the [EPIC Kitchens 100](https://epic-kitchens.github.io/2022#challenge-action-recognition) action recognition challenge, which serves as an inspiration for this task. However, we will take this one step further and formulate this problem in an unsupervised setting, where we aim to formulate action boundaries without using any timestamps. Another novelty is that unlike the EPIC Kitchens setting, our method does not require the human to be exactly narrating their actions. Instead, our model is able to learn new information from the narration even as long as it is related to the activity, thus representing a realistic setting.
 
-We estimate this project to have publishable results soon.
+Paper coming soon! soon.
 
 **[Github](https://github.com/BarunKGP/HAAR)**
 
@@ -32,8 +32,12 @@ Domain generalization algorithms suffer from distribution shifts when faced with
 
 DoGe solves this problem by implementing a novel algorithm that combines gradient muting and a penalty term that punishes the model when its predictions are wrong after a certain number of annealing iterations. We also implemented a scheduling function that controls the influence the penalty and gradient muting functions have at different part of the training stage, depending on whether we are working on a dataset that is more prone to correlation shift or diversity shift. So far, we have managed to beat several benchmarks mentioned in the OOD-Bench paper across both correlation shift and diversity shift, outperforming the previous state-of-the-art models. We are in the process of testing our model on different datasets and expect to get our final results by December 2022.
 
-**[Github](https://github.com/ChayneThrash/DomainBed)** **[Demo video](https://youtu.be/5UJ3fXRFhTw)**
+**[Github](https://github.com/ChayneThrash/DomainBed)** 
 
+Here is a brief (_2 min_) video explaining the project with a quick demo:
+<p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5UJ3fXRFhTw" title="Towards Addressing Correlation and Diversity Shift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 ## Blockboard
 _Aug 2021 - Dec 2021_
