@@ -9,8 +9,8 @@ author_profile: true
 *Jan 2022 - Present* 
 
 We are utilizing narration within videos as a weak label to improve action recognition in a semi-supervised setting.
-The intuition behind this project is to use additional information present in human narration accompanying
-videos which can help improve action recognition performance.
+The intuition behind this project is to use additional information contained in videos which have accompanying human 
+narration to improve action recognition performance.
 
 We conducted an exploratory study in Spring 2022 to determine the feasibility of this hypotheis, using an off-
 the-shelf I3D Resnet 50 action recognizer with a handcrafted speech recognizer module that was built using
@@ -19,9 +19,9 @@ the action resolution of the baseline action recognizer by identifying new adjac
 initial label map. On Kinetics-400, this approach managed to augment the existing label map by 27%, having
 learnt new classes from the narration itself.
 
-Based on our findings, we are developing a narration-aided human activity recognition system. Our current approach is to compute the multimodal attention between the narration verbs and nouns and the frame features as a signal for the action boundaries. This is important because we formulate this as a weakly supervised problem and do not use exact action timestamps. This is in line with the [EPIC Kitchens 100](https://epic-kitchens.github.io/2022#challenge-action-recognition) action recognition challenge, which serves as an inspiration for this task. However, we will take this one step further and formulate this problem in an unsupervised setting, where we aim to formulate action boundaries without using any timestamps. Another novelty is that unlike the EPIC Kitchens setting, our method does not require the human to be exactly narrating their actions. Instead, our model is able to learn new information from the narration even as long as it is related to the activity, thus representing a realistic setting.
+Based on our findings, we are developing a narration-aided human activity recognition system. Our current approach is to compute the multimodal attention between the narration verbs and nouns and the frame features as a signal for the action boundaries. This is important because we formulate this as a weakly supervised problem and do not use exact action timestamps. This is in line with the [EPIC Kitchens 100](https://epic-kitchens.github.io/2022#challenge-action-recognition) weakly supervised action recognition challenge, which serves as an inspiration for this task. One specific advantage is that unlike the EPIC Kitchens setting, our method does not require the human to be exactly narrating their actions. Instead, our model is able to learn new information from noisy and misaligned narrations too, thus representing a realistic setting.
 
-Paper coming soon! soon.
+Paper coming soon!
 
 **[Github](https://github.com/BarunKGP/HAAR)**
 
