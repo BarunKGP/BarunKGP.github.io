@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Human-assisted Activity Recognition
-*Jan 2022 - Present* 
+*Aug 2022 - Present* 
 
 We are utilizing narration within videos as a weak label to improve action recognition in a semi-supervised setting.
 The intuition behind this project is to use additional information contained in videos which have accompanying human 
