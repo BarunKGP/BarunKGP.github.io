@@ -9,8 +9,8 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
   
-  - title: "Coursework"
-    url: /coursework/ 
+  # - title: "Coursework"
+  #   url: /coursework/ 
         
   - title: "Blog Posts"
     url: /blogs/  # Change to /year-archive/ after importing blogs from Medium to here
